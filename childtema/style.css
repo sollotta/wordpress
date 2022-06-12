@@ -1,0 +1,132 @@
+/*
+ *   Theme Name: Hello Child 
+ *   Description: Child tema till Hello Elementor
+ *   Author: Lotta Ollander
+ *   Template: hello-elementor
+*/
+
+body {
+    background-image: linear-gradient(90deg, #6ea9dd94, #faf9f5);
+    }  
+    /********************************** 
+        Style CSS - fonter 
+    **********************************/ 
+
+ main.post h1.entry-title {
+        display: none;
+    } 
+
+    h1.entry-title, h1.elementor-heading-title, h2.elementor-heading-title,  h3.elementor-heading-title, .elementor-text-editor h2, h3.eae-pl-title a, .page-content h2 a {
+        font-family: 'Paytone One', sans-serif !important; 
+        }
+        
+    .elementor-text-editor li, .elementor-widget-container p, .page-content p {
+        font-family: 'Arvo', sans-serif !important; 
+        color:#050505 !important
+    }    
+    /********************************** 
+         Style CSS - weight color etc 
+    **********************************/ 
+    h1.entry-title, h1.elementor-heading-title, h2.elementor-heading-title, .elementor-text-editor h2, h3.eae-pl-title a { 
+        font-weight: 400 !important;  
+        line-height: 100%; 
+    }
+    h1.elementor-heading-title, h3.elementor-heading-title{
+        color: #fafafa;
+    }   
+
+    h2.elementor-heading-title, .elementor-text-editor h2, .page-content h2 a:hover, .elementor-text-editor li a, .elementor-widget-container p a  {
+        color: #6EAADD;
+    }
+
+    h1.elementor-heading-title {
+        font: 2.1rem !important;
+    }
+    h2.elementor-heading-title, .elementor-text-editor h2 {
+            font: 2.6rem;
+        }
+    
+    h3.elementor-heading-title  { 
+        font: 2rem;
+    }
+    .page-content h2 a, .elementor-text-editor li a, .elementor-widget-container p a {
+        text-decoration: underline !important; 
+        font-weight: bold !important;
+        }
+    
+    .page-content h2 a:hover, .elementor-text-editor li a:hover, .elementor-widget-container p a:hover {
+        color: #003E53 !important;
+        }
+       
+    .elementor-text-editor li, .elementor-text-editor li a, .elementor-text-editor li a:hover {
+        text-align: left;
+    }
+   
+   
+    /********************************** 
+         Widget CSS
+    **********************************/ 
+
+    .elementor-widget-container p, .page-content p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.1ch;
+    }
+
+    .elementor-widget-container {
+            padding-top: .5em;
+   }
+
+    /********************************** 
+        Button CSS 
+    **********************************/ 
+
+    .search-submit, #submit.submit, #searchsubmit {
+        color: #003E53 !important;
+        border: 1px solid #003E53 !important;
+    }
+    .search-submit:hover, #submit.submit, #searchsubmit:hover { 
+        background-color: #003E53 !important; 
+        color: #fafafa !important;
+    }
+  /********************************** 
+         Footer CSS
+    **********************************/ 
+
+
+    footer h4, footer li, footer .elementor-widget-container a{
+    color: #fafafa;
+    font-weight: normal !important;
+    } 
+    footer a {
+        text-decoration: underline !important;
+    }
+    footer .elementor-widget-container a:hover{
+        color: #6EAADD !important;
+        }
+
+ /********************************** 
+        Comments CSS
+    **********************************/ 
+
+.comment-metadata a, .fn a, a.comment-reply-link, .logged-in-as a, #cancel-comment-reply-link {
+        color: #003E53 !important;
+        text-decoration: underline;
+    }
+
+    .comment-metadata a:hover, .fn a:hover, a.comment-reply-link:hover, .logged-in-as a:hover, #cancel-comment-reply-link:hover {
+        color: #6EAADD !important;
+    } 
+
+     /********************************** 
+        Sök CSS
+    **********************************/ 
+    .search-results h2 a
+    {
+       color: #003E53;
+    }
+    .search-results h2 a:hover
+    {
+       color: #6EAADD !important;
+    }
